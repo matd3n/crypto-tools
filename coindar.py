@@ -74,7 +74,7 @@ if __name__ == '__main__':
 
     # --- NEWS ---
     url_cmc = "https://api.coinmarketcap.com/v1/ticker/?convert=EUR&limit=10"
-    url_news_prefix = "https://cryptopanic.com/api/posts/?auth_token=b42dc90f653595d7daeca394c87ebef0d5c88481&trending=true&page="
+    url_news_prefix = "https://cryptopanic.com/api/posts/?auth_token=xxx&trending=true&page="
     if pull_news:
         df_out = pd.DataFrame()
         for i in range(1,11):
